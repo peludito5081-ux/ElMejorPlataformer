@@ -16,20 +16,21 @@ public class PlayerMov : MonoBehaviour
     {
         if (_detectorSuelo.estaEnSuelo)
         {
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.W))
             {
-                _cuerpoRigido2D.AddForce(Vector2.up * _fuerzaSalto, ForceMode2D.Impulse);
-                Debug.Log("Oprimí la tecla");
+                _cuerpoRigido2D.linearVelocity= Vector2.up * _fuerzaSalto;
+                //Debug.Log("Oprimí la tecla");
             }
-            
         }
-        if (Input.GetKey(KeyCode.X))
+        if (Input.GetKey(KeyCode.D))
         {
+            
             transform.position += Vector3.right * _velocidadMovimiento * Time.deltaTime;
 
         }
-        if (Input.GetKey(KeyCode.Z))
+        if (Input.GetKey(KeyCode.A))
         {
+            
             transform.position += Vector3.left * _velocidadMovimiento * Time.deltaTime;
         }
 
