@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlayerMov : MonoBehaviour
 {
-    [SerializeField] private float _fuerzaSalto = 2f;
-    [SerializeField] private float _velocidadMovimiento = 2f;
+    [SerializeField] private float _fuerzaSalto = 5f;
+    [SerializeField] private float _velocidadMovimiento = 5f;
     [SerializeField] private Rigidbody2D _cuerpoRigido2D;
     [SerializeField] private DetectorSuelo _detectorSuelo;
 
