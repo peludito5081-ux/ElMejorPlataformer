@@ -8,8 +8,8 @@ public class Trampas : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player") ;
         {
-            _playerStats.RestarVida(10);
-            _uiManager.RestarFillAmount(0.1f);
+            _playerStats.RestarVida(30);
+            _uiManager.RestarFillAmount(0.3f);
         }
     }
 }
