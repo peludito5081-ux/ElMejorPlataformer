@@ -14,6 +14,14 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private GameManager gameManager;
     [SerializeField] private GameObject panelDerrota;
 
+    [SerializeField] private int _puntos = 0;
+   
+
+    public void RecogerEstrella(int puntos)
+    {
+        _puntos += puntos;
+        _uiManager.ActualizarPuntos(_puntos);
+    }
     public int PuntosVida => _puntosVida;
     public int PuntosEscudo => _puntosEscudo;
 
@@ -23,9 +31,11 @@ public class PlayerStats : MonoBehaviour
 
         _puntosVida = Mathf.Clamp(_puntosVida, 0, _vidaMaxima);
         _puntosEscudo = Mathf.Clamp(_puntosEscudo, 0, _escudoMaximo);
+        _uiManager.ActualizarBarraEscudo(_puntosEscudo, _escudoMaximo);
+        _uiManager.ActualizarPuntos(_puntos);
     }
 
-  
+
     public void SumarVida(int vida)
     {
         _puntosVida = Mathf.Clamp(
@@ -39,8 +49,10 @@ public class PlayerStats : MonoBehaviour
 
         _puntosEscudo = Mathf.Clamp(
             _puntosEscudo + escudo, 0, _escudoMaximo);
-    }
 
+        _uiManager.ActualizarBarraEscudo(_puntosEscudo, _escudoMaximo);
+    }
+   
     // Recibir daño: primero escudo, después vida
     public void RestarVida(int daño)
     {
@@ -51,10 +63,14 @@ public class PlayerStats : MonoBehaviour
 
         _puntosEscudo -= dañoAlEscudo;
 
+        _uiManager.ActualizarBarraEscudo(_puntosEscudo, _escudoMaximo);
+
         // El daño que sobra pasa a la vida
         int dañoRestante = daño - dañoAlEscudo;
 
         _puntosVida = Mathf.Max(0, _puntosVida - dañoRestante);
+
+
     }
 
     private void Update()

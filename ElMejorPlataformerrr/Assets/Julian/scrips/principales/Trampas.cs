@@ -6,7 +6,7 @@ public class Trampas : MonoBehaviour
     [SerializeField] private UIManager _uiManager;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player") ;
+        if (collision.gameObject.tag == "Player") 
         {
             _playerStats.RestarVida(30);
             _uiManager.RestarFillAmount(0.3f);
