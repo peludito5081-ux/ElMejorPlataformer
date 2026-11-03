@@ -98928,7 +98928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d9127688b59c8418c44df293118305, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemEstrella
-  _valor: 1
+  _valor: 25
 --- !u!1 &1825477588
 GameObject:
   m_ObjectHideFlags: 0
