@@ -1,9 +1,11 @@
 using UnityEngine;
 using TMPro;
+using static UnityEngine.Rendering.DebugUI;
 public class Reloj : MonoBehaviour
 {
     public TMP_Text Textotiempo;
-    public float tiempo = 120f;
+    public float tiempo = 240f;
+    public GameObject panelGG;
 
     public void SumarTiempo()
     {
@@ -24,6 +26,7 @@ public class Reloj : MonoBehaviour
             tiempo = 0;
             Textotiempo.text = "00:00";
             Time.timeScale = 0f;
+            panelGG.SetActive(true);
         }
     }
 
