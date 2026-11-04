@@ -20,7 +20,6 @@ public class GameManager : MonoBehaviour
     public void PausarElJuego()
     {
         Time.timeScale = 0;
-
     }
     public void ReanudarJuego()
     {
@@ -30,6 +29,5 @@ public class GameManager : MonoBehaviour
     {
         ReanudarJuego();
     }
-
 }
 
