@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ItemEstrella : MonoBehaviour
+public class ItemEstrellas : MonoBehaviour
 {
     [SerializeField] private int _valor = 1;
 
@@ -8,15 +8,14 @@ public class ItemEstrella : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            PlayerStats jugador = collision.GetComponent<PlayerStats>();
+            SistemaEstrellas contador = collision.GetComponent<SistemaEstrellas>();
 
-            if (jugador != null)
+            if (contador != null)
             {
-                jugador.RecogerEstrella(_valor);
+                contador.SumarPuntos(_valor);
 
                 Destroy(gameObject);
             }
         }
     }
 }
-

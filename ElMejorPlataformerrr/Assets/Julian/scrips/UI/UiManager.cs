@@ -13,12 +13,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] int _puntosEscudo = 0;
     [SerializeField] int _escudoMaximo = 100;
     [SerializeField] private TextMeshProUGUI _textoPuntos;
-
-public void ActualizarPuntos(int puntos)
+    public void ActualizarPuntos(int puntos)
     {
-        _textoPuntos.text = "estrellas: " + puntos;
+        _textoPuntos.text = "Estrellas: " + puntos;
     }
-
     public void SumarFillAmount(float amount)
 
     {

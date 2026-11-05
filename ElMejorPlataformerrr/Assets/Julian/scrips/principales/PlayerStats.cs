@@ -14,17 +14,10 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private GameManager gameManager;
     [SerializeField] private GameObject panelDerrota;
 
-    [SerializeField] private int _puntos = 0;
+    
    
 
-    public void RecogerEstrella(int puntos)
-    {
-        _puntos += puntos;
-        _uiManager.ActualizarPuntos(_puntos);
-    }
-    public int PuntosVida => _puntosVida;
-    public int PuntosEscudo => _puntosEscudo;
-
+  
     private void Start()
     {
         panelDerrota.SetActive(false);
@@ -32,7 +25,7 @@ public class PlayerStats : MonoBehaviour
         _puntosVida = Mathf.Clamp(_puntosVida, 0, _vidaMaxima);
         _puntosEscudo = Mathf.Clamp(_puntosEscudo, 0, _escudoMaximo);
         _uiManager.ActualizarBarraEscudo(_puntosEscudo, _escudoMaximo);
-        _uiManager.ActualizarPuntos(_puntos);
+       
     }
 
 

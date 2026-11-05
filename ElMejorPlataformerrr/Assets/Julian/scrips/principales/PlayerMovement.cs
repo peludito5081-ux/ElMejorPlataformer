@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Runtime.CompilerServices;
+using UnityEngine;
+using UnityEngine.InputSystem.XInput;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         _cuerpoRigido2D = GetComponent<Rigidbody2D>();
-        
+
     }
 
     private void FixedUpdate()
@@ -39,11 +41,9 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-    
 
 
 
     }
-
 
 }
