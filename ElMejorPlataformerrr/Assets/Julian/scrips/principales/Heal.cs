@@ -3,7 +3,7 @@ using UnityEngine;
 public class Heal : MonoBehaviour
 {
     [SerializeField] private PlayerStats _playerStats;
-    [SerializeField] private UIManager _uiManager;
+    [SerializeField] private UIManagerJ _uiManager;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

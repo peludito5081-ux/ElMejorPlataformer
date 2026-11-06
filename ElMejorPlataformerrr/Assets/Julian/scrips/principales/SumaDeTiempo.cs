@@ -3,7 +3,7 @@ using UnityEngine;
 public class SumaDeTiempo : MonoBehaviour
 {
    
-    public Reloj _reloj;
+    public RelojJulian _reloj;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

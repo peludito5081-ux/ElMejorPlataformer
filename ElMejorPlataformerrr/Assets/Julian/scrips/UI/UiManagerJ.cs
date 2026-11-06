@@ -2,14 +2,14 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIManager : MonoBehaviour
+public class UIManagerJ : MonoBehaviour
 {
 
     [SerializeField] private Image _barra;
     [SerializeField] private Image _barraAzul;
     [SerializeField] int _puntosVida;
     [SerializeField] private PlayerStats playerStats;
-    [SerializeField] private UIManager _uiManager;
+    [SerializeField] private UIManagerJ _uiManager;
     [SerializeField] int _puntosEscudo = 0;
     [SerializeField] int _escudoMaximo = 100;
     [SerializeField] private TextMeshProUGUI _textoPuntos;

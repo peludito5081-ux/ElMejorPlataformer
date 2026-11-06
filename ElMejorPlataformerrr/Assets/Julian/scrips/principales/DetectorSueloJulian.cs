@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DetectorSuelo : MonoBehaviour
+public class DetectorSueloJulian : MonoBehaviour
 {
     public bool estaEnSuelo;
 

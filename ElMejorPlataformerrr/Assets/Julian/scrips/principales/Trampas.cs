@@ -3,7 +3,7 @@ using UnityEngine;
 public class Trampas : MonoBehaviour
 {
     [SerializeField] private PlayerStats _playerStats;
-    [SerializeField] private UIManager _uiManager;
+    [SerializeField] private UIManagerJ _uiManager;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player") 

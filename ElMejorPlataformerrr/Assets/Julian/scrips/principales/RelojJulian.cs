@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-public class Reloj : MonoBehaviour
+public class RelojJulian : MonoBehaviour
 {
 
     [SerializeField] private GameObject panelDerrota;

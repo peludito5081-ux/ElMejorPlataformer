@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class SistemaEstrellas : MonoBehaviour
+public class SistemaEStrellas : MonoBehaviour
 {
     [Header("Contador de estrellas")]
     [SerializeField] private int _puntos = 0;
 
     [Header("Interfaz")]
-    [SerializeField] private UIManager _uiManager;
+    [SerializeField] private UIManagerJ _uiManager;
 
     [Header("Desbloqueo")]
     [SerializeField] private GameObject _objetoDesbloqueable;

@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _fuerzaSalto = 5f;
     [SerializeField] private float _velocidadMovimiento = 5f;
     [SerializeField] private Rigidbody2D _cuerpoRigido2D;
-    [SerializeField] public DetectorSuelo _detectorSuelo;
+    [SerializeField] public DetectorSueloJulian _detectorSuelo;
 
     private void Awake()
     {

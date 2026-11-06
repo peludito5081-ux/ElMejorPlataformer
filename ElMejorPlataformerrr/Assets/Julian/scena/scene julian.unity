@@ -443,7 +443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &94531147
 BoxCollider2D:
@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!1 &148065396
 GameObject:
@@ -690,7 +690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &176992998
 BoxCollider2D:
@@ -890,7 +890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!212 &186648868
 SpriteRenderer:
@@ -1323,7 +1323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &254367280
 BoxCollider2D:
@@ -1715,7 +1715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!212 &280502964
 SpriteRenderer:
@@ -2627,7 +2627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!212 &362759017
 SpriteRenderer:
@@ -3032,7 +3032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &445561142
 BoxCollider2D:
@@ -3520,7 +3520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &509927852
 BoxCollider2D:
@@ -4035,7 +4035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!212 &666313439
 SpriteRenderer:
@@ -20600,7 +20600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!1 &704328336
 GameObject:
@@ -21904,6 +21904,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f78b356011231374a8c3ba4d60d038b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Point
+  _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
+  CnP: {fileID: 0}
 --- !u!61 &830509677
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22288,7 +22291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &940953453
 BoxCollider2D:
@@ -22488,7 +22491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!212 &943094552
 SpriteRenderer:
@@ -23483,7 +23486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!212 &993541223
 SpriteRenderer:
@@ -25223,7 +25226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!19719996 &1116901300
 TilemapCollider2D:
@@ -25843,7 +25846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &1272372967
 BoxCollider2D:
@@ -26317,7 +26320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &1344773661
 BoxCollider2D:
@@ -27011,6 +27014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd2da52e4c88a74f8e929921afa2307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RecogerLlAVE
+  controlLlave: {fileID: 0}
 --- !u!114 &1392395771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27023,6 +27027,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9af755fe3fca4074c9db31498cc3b981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LlavE
+  Player: {fileID: 0}
+  llave: {fileID: 0}
+  llaveObtenida: 0
+  puntosNecesarios: 100
 --- !u!114 &1392395772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27227,7 +27235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &1412324542
 BoxCollider2D:
@@ -27395,7 +27403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 0}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &1422439054
 BoxCollider2D:
@@ -27536,7 +27544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!212 &1423165947
 SpriteRenderer:
@@ -27844,7 +27852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &1466001700
 BoxCollider2D:
@@ -97121,7 +97129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!212 &1517021499
 SpriteRenderer:
@@ -97275,7 +97283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!212 &1597088316
 SpriteRenderer:
@@ -97911,6 +97919,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f78b356011231374a8c3ba4d60d038b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Point
+  _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
+  CnP: {fileID: 0}
 --- !u!114 &1787706104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98236,7 +98247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!212 &1797557327
 SpriteRenderer:
@@ -98571,7 +98582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &1809776306
 BoxCollider2D:
@@ -98839,7 +98850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &1832622244
 BoxCollider2D:
@@ -99401,7 +99412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Muertedefinitiva
   _playerStats: {fileID: 1805361882}
-  _uiManager: {fileID: 261552856}
+  _uiManager: {fileID: 0}
   panelDerrota: {fileID: 2042484371}
 --- !u!61 &2068014326
 BoxCollider2D:
@@ -99873,6 +99884,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f78b356011231374a8c3ba4d60d038b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Point
+  _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
+  CnP: {fileID: 0}
 --- !u!61 &2078121407
 BoxCollider2D:
   m_ObjectHideFlags: 0

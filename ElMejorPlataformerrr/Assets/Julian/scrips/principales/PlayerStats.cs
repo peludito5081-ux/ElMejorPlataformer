@@ -10,7 +10,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] int _puntosEscudo = 0;
     [SerializeField] int _escudoMaximo = 100;
 
-    [SerializeField] private UIManager _uiManager;
+    [SerializeField] private UIManagerJ _uiManager;
     [SerializeField] private GameManager gameManager;
     [SerializeField] private GameObject panelDerrota;
 

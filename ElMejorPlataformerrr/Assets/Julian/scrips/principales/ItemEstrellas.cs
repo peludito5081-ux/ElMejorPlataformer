@@ -8,7 +8,7 @@ public class ItemEstrellas : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            SistemaEstrellas contador = collision.GetComponent<SistemaEstrellas>();
+            SistemaEStrellas contador = collision.GetComponent<SistemaEStrellas>();
 
             if (contador != null)
             {

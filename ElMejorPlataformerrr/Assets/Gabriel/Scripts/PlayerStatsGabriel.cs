@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PlayerStats : MonoBehaviour
+public class PlayerStatsGabriel : MonoBehaviour
 {
     [SerializeField] private PlayerStats _playerStats;
     [SerializeField] private UIManager _uiManager;
