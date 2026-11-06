@@ -9,7 +9,7 @@ public class Reloj : MonoBehaviour
 
     public void SumarTiempo()
     {
-        tiempo += 10f;
+        tiempo += 20f;
     }
     void Update()
     {

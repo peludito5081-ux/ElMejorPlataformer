@@ -8,9 +8,25 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private float _puntosVidaActuales = 100f;
     [SerializeField] private int _vidaMaxima;
     [SerializeField] private int _panelGG;
+    public int _Shield = 0;
+    public int _maximumShield = 1;
 
     public GameObject panelGGG;
     // Start is called before the first frame update
+
+    public void ShieldOn(int ShieldsOn)
+    {
+        _Shield += ShieldsOn;
+        if (_Shield > _maximumShield)
+        {
+            _Shield = _maximumShield;
+        }
+    }
+
+    public void ShieldDestroyed(int ShieldsDestroyed)
+    {
+        _Shield -= ShieldsDestroyed;
+    }
     public void RestarVida(int daño)
     {
         _puntosVidaActuales = _puntosVidaActuales - daño;
@@ -21,6 +37,7 @@ public class PlayerStats : MonoBehaviour
     }
     private void Update()
     {
+        
         if (_puntosVidaActuales >= 100)
         {
             _puntosVidaActuales = 100;
@@ -41,6 +58,10 @@ public class PlayerStats : MonoBehaviour
         {
             Time.timeScale = 0;
             panelGGG.SetActive(true);
+        }
+        if (_Shield == 1)
+        {
+            _uiManager.ColorBarra(Color.aquamarine);
         }
     }
 }

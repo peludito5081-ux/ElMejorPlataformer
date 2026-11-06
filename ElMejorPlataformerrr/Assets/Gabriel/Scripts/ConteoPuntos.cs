@@ -6,6 +6,7 @@ public class ConteoPuntos : MonoBehaviour
     public TMP_Text txtPoints;
     public int puntos = 0;
     public GameObject Victoria;
+    public LlavE llave;
     public void SumarPuntos()
     {
         if (puntos < 100)
@@ -14,21 +15,16 @@ public class ConteoPuntos : MonoBehaviour
 
             if (puntos >= 100)
             {
-                puntos = 0;
+                puntos = 100;
                 txtPoints.text = puntos.ToString() + "Obtuviste una llave";
+                llave.AparecerLlave(puntos);
             }
             else
             {
                 txtPoints.text = puntos.ToString() + "/100";
-            }   
-            
-        }
-    }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player")&& puntos >= 100)
-        {
-            Victoria.SetActive(true);
+            }
+
         }
     }
 }
+

@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] int _puntosVida;
     [SerializeField] private PlayerStats playerStats;
     [SerializeField] private UIManager _uiManager;
+
     public void SumarFillAmount(float amount)
     {
         _barraza.fillAmount += amount;
