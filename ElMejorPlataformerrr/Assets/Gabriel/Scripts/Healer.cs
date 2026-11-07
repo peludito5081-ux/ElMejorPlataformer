@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Healer : MonoBehaviour
 {
-    [SerializeField] private PlayerStats _playerStats;
+    [SerializeField] private PlayersTatsGG _playerStats;
     [SerializeField] private UIManager _uiManager;
     private void OnTriggerEnter2D(Collider2D collision)
     {

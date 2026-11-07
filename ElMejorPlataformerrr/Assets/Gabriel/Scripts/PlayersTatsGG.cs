@@ -1,9 +1,9 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PlayerStatsGabriel : MonoBehaviour
+public class PlayersTatsGG : MonoBehaviour
 {
-    [SerializeField] private PlayerStats _playerStats;
+    [SerializeField] private PlayersTatsGG _playerStats;
     [SerializeField] private UIManager _uiManager;
     [SerializeField] private float _puntosVidaActuales = 100f;
     [SerializeField] private int _vidaMaxima;
@@ -37,7 +37,7 @@ public class PlayerStatsGabriel : MonoBehaviour
     }
     private void Update()
     {
-        
+
         if (_puntosVidaActuales >= 100)
         {
             _puntosVidaActuales = 100;

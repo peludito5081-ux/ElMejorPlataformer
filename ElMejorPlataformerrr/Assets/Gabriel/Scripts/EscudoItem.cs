@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EscudoItem : MonoBehaviour
 {
-    [SerializeField] private PlayerStatsGabriel _playerStats;
+    [SerializeField] private PlayersTatsGG _playerStats;
     [SerializeField] private UIManager _uiManager;
     [SerializeField] private GameObject _Shield;
     private void OnCollisionEnter2D(Collision2D colision)

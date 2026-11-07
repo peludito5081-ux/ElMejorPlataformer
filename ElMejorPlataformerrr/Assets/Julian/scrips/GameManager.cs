@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManagerG : MonoBehaviour
 {
 
     public void CargarEscena(int scena)

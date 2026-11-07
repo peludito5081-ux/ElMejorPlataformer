@@ -5,7 +5,7 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] private Image _barraza;
     [SerializeField] int _puntosVida;
-    [SerializeField] private PlayerStats playerStats;
+    [SerializeField] private PlayersTatsGG playerStats;
     [SerializeField] private UIManager _uiManager;
 
     public void SumarFillAmount(float amount)

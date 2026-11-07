@@ -4,7 +4,7 @@ public class trapsss : MonoBehaviour
 {
     //[SerializeField] private PlayerStats _playerStats;
     //[SerializeField] private UIManager _uiManager;
-    [SerializeField] private PlayerStatsGabriel _playerStats;
+    [SerializeField] private PlayersTatsGG _playerStats;
     [SerializeField] private UIManager _uiManager;
     public GameObject panelGG;
     private void OnCollisionEnter2D(Collision2D collision)
